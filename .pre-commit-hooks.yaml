@@ -1,0 +1,6 @@
+- id: tfproviderlint
+  name: tfproviderlint
+  description: int tf provider go code
+  entry: run_tfproviderlint.sh
+  language: script
+  files: '\.go$'
