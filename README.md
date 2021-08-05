@@ -10,6 +10,7 @@ go get github.com/bflad/tfproviderlint/cmd/tfproviderlint
 ```
 
 # Usage
+* In your `.pre-commit-config.yaml` add:
 ```yaml
 repos:
   - repo: https://github.com/FalcoSuessgott/tfproviderlint
