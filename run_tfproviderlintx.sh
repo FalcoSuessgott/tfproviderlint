@@ -2,4 +2,4 @@
 
 set -e
 
-exec tfproviderlintx "$@"
+exec tfproviderlintx ./...
