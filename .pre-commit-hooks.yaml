@@ -1,6 +1,13 @@
 - id: tfproviderlint
   name: tfproviderlint
-  description: int tf provider go code
+  description: lint tf provider go code
   entry: run_tfproviderlint.sh
+  language: script
+  files: '\.go$'
+
+- id: tfproviderlintx
+  name: tfproviderlintx
+  description: lint tf provider go code
+  entry: run_tfproviderlintx.sh
   language: script
   files: '\.go$'
