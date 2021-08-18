@@ -19,7 +19,7 @@ go get github.com/bflad/tfproviderlint/cmd/tfproviderlintx
 ```yaml
 repos:
   - repo: https://github.com/FalcoSuessgott/tfproviderlint
-    rev: v0.0.3
+    rev: v0.0.4
     hooks:
       - id: tfproviderlint
       - id: tfproviderlintx
